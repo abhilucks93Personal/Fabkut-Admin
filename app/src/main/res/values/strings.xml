@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Fabkut Admin</string>
+    <string name="logo_catch">Groom Your Self.. !</string>
+    <string name="forgot_password_content">Enter your registered mobile or e-mail id for reset password</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="net_price">Net Price(Rupees)</string>
+    <string name="paid_rp">paid(Rupees)</string>
+    <string name="unpaid_rp">Unpaid(Rupees)</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_main_titles">
+        <item>Dashboard</item>
+    </string-array>
+
+    <string-array name="service_name_array">
+        <item>Party Mehndi (951 Rs.) (40 min)</item>
+        <item>Package for Gents (1051 Rs.) (60 min)</item>
+    </string-array>
+
+    <string-array name="city_array">
+
+    </string-array>
+
+    <string-array name="business_name">
+        <item>Kanpur</item>
+        <item>Delhi</item>
+        <item>Banguluru</item>
+    </string-array>
+
+    <string-array name="salon_name">
+        <item>Kanpur</item>
+        <item>Delhi</item>
+        <item>Banguluru</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Data_Entry</item>
+        <item>Marketing</item>
+        <item>Inventory</item>
+
+    </string-array>
+
+    <string-array name="location_array">
+        <!--<item>kidwai nagar</item>-->
+        <!--<item>mall road</item>-->
+        <!--<item>shyam nagar</item>-->
+    </string-array>
+
+
+    <string-array name="employee_array">
+        <item>Marry</item>
+        <item>Arpit</item>
+        <item>Shray</item>
+        <item>Emuvel</item>
+        <item>Shyam</item>
+    </string-array>
+
+    <string-array name="services_array">
+        <item>Service 1</item>
+        <item>Service 2</item>
+        <item>Service 3</item>
+        <item>Service 4</item>
+    </string-array>
+
+    <string-array name="product_array">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+    <string-array name="unit_array">
+        <item>unit 1</item>
+        <item>unit 2</item>
+        <item>unit 3</item>
+        <item>unit 4</item>
+        <item>unit 5</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_marketing_tab">Marketing_tab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

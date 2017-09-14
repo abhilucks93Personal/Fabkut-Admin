@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:elevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="vertical"
+            android:id="@+id/tabLinear"
+            android:background="@color/colorBlue2">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/tabLinear"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/activity_tab_profilePic"
+            android:src="@drawable/dummy_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="1dp"
+            android:onClick="chooseProfilePic"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F7F9F9">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabIndicatorColor="@color/colorBlue2"
+            app:tabSelectedTextColor="@color/colorBlue2"
+            app:tabMode="scrollable"
+            app:tabTextColor="#A4AFB7" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey25" />
+    </LinearLayout>
+
+    <!-- View pager to swipe views -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

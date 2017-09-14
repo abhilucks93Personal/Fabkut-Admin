@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_portfolio">
+        </ListView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_add_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Add Photo"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
